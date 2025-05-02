@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-O3DboHsiiC](https://www.frontendmentor.io/solutions/product-preview-card-component-O3DboHsiiC)
+- Live Site URL: [https://product-preview-card-component-prj.netlify.app](https://product-preview-card-component-prj.netlify.app)
 
 ## My process
 
@@ -104,6 +104,15 @@ Naming convention:
 In this way the CSS elements are not fill with bunch of different CSS properties, and it puts everything in logical order.
 
 I will keep developing this way of writing HTML and CSS - it also make it easy to read the code.
+
+I also used the `<picture>` element to display the `image-product-mobile.jpg` image at a window width of `630px`
+
+```html
+<picture class="card-image">
+  <source srcset="images/image-product-mobile.jpg" media="(max-width: 630px)" />
+  <img src="images/image-product-desktop.jpg" alt="Gabrielle Chanel perfume" />
+</picture>
+```
 
 ### Continued development
 
